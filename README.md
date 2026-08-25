@@ -129,8 +129,8 @@ Two design choices carry most of the reliability weight:
 
 ```bash
 # 1. Clone
-git clone <YOUR_GITHUB_REPOSITORY_URL>
-cd AsterGuard
+git clone https://github.com/shreya-555/AsterGuard-Reliable-RAG-Support-Agent-for-Aster-Row.git
+cd .\AsterGuard-Reliable-RAG-Support-Agent-for-Aster-Row
 
 # 2. Create and activate a virtual environment
 python -m venv .venv
@@ -172,9 +172,7 @@ MODEL_NAME=openai/gpt-oss-20b
 EMBEDDING_MODEL=all-MiniLM-L6-v2
 ```
 
-> `.env` is git-ignored. Never commit a real key; rotate any key that was ever shared outside your local machine.
 
----
 
 ## Running the App
 
