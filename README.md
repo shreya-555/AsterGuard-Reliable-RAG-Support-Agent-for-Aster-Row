@@ -152,6 +152,9 @@ pytest -q
 
 # 7. Run the agent
 python cli.py
+
+# 8. Optional browser UI
+streamlit run streamlit_app.py
 ```
 
 ---
